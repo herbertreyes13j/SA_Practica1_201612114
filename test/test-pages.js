@@ -10,7 +10,7 @@ describe("validator isNumValid()", () => {
 	})
 
 	it("Deberia retornar falso si el numero es menor a 0", () => {
-		expect(funciones.EsPositivo(45)).to.be.false
+		expect(funciones.EsPositivo(-45)).to.be.false
 	})
 
 	it("Deberia retornar falso si el numero es 0", () => {
