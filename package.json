@@ -1,0 +1,31 @@
+{
+  "name": "sa_practica1_201612114",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec",
+    "start": "nodemon -e js,ejs,css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/herbertreyes13j/SA_Practica1_201612114.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/herbertreyes13j/SA_Practica1_201612114/issues"
+  },
+  "homepage": "https://github.com/herbertreyes13j/SA_Practica1_201612114#readme",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "body-parser": "^1.19.0",
+    "chai": "^4.2.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "mocha": "^8.2.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.6",
+    "request": "^2.88.2"
+  }
+}
