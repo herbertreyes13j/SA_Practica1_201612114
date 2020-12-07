@@ -14,7 +14,7 @@ describe("validator isNumValid()", () => {
 	})
 
 	it("Deberia retornar falso si el numero es 0", () => {
-		expect(funciones.EsPositivo(0)).to.be.false
+		expect(funciones.EsPositivo(85)).to.be.false
 	})
 
 
