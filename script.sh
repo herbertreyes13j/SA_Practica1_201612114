@@ -1,3 +1,3 @@
 sudo docker rm -vf $(docker ps -a -q)
 sudo docker rmi -f $(docker images -a -q)
-sudo docker-compose up
+sudo docker-compose up -d
